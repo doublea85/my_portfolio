@@ -12,12 +12,9 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          qui fugit numquam! Cum vitae temporibus molestiae dicta illum
-          laboriosam similique at mollitia nihil iusto repellat numquam eos illo
-          perspiciatis a unde minima commodi id cupiditate laborum iste, beatae
-          maiores. Voluptatum quisquam dignissimos tempore asperiores sit
-          ratione officiis officia alias vitae.
+          Passionné d’informatique , également créatif, rigoureux, autodidacte et dynamique.
+          Je suis Développeur web en formation à webforce3, Paris.
+          Actuellement en recherche d’alternance en entreprise, dans le cadre d’un contrat          d’apprentissage d’une durée de 11 mois (3 semaines en entreprise/une semaine à l’école)
         </p>
       </div>
     </div>
