@@ -1,6 +1,7 @@
 import React from "react";
 import weatherApp from "../assets/portfolio/weatherApp.png";
 import vegetables from "../assets/portfolio/vegetables.png";
+import todolist from "../assets/todolist.jpeg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -14,14 +15,14 @@ const Portfolio = () => {
       id: 2,
       src: vegetables,
       link: "https://github.com/doublea85/Vegetables",
-      demo:""
+      demo:"#"
     },
-    // {
-    //   id: 3,
-    //   src: reactWeather,
-    //   link: "",
-    //   demo: ""
-    // },
+    {
+      id: 3,
+      src: todolist,
+      link: "https://github.com/doublea85/todoListReactNative",
+      demo: "#"
+    },
   ];
 
   return (

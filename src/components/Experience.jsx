@@ -12,6 +12,7 @@ import php from "../assets/php.png";
 import python from "../assets/python.png";
 import symfony from "../assets/symfony.png";
 
+
 const Experience = () => {
   const techs = [
     {
