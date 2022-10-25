@@ -13,8 +13,7 @@ const About = () => {
         </div>
         <p className="text-xl mt-20">
           Passionné d’informatique , également créatif, rigoureux, autodidacte et dynamique.
-          Je suis Développeur web en formation à webforce3, Paris.
-          Actuellement en recherche d’alternance en entreprise, dans le cadre d’un contrat          d’apprentissage d’une durée de 11 mois (3 semaines en entreprise/une semaine à l’école)
+          Je suis actuellement en recherche d’alternance en entreprise, dans le cadre d’un contrat d’apprentissage d’une durée de 12 mois (3 semaines en entreprise/une semaine à l’école)
         </p>
       </div>
     </div>
