@@ -9,7 +9,7 @@ const Portfolio = () => {
       id: 1,
       src: weatherApp,
       link: "https://github.com/doublea85/WeatherApp",
-      demo: "https://weather-ov8mfeqyf-doublea85.vercel.app/"
+      demo: "https://weatherapp-swart-sigma.vercel.app/"
     },
     {
       id: 2,
