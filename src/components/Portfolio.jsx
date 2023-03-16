@@ -1,28 +1,42 @@
 import React from "react";
+import SchoolMaster from "../assets/portfolio/SchoolMaster.png";
 import weatherApp from "../assets/portfolio/weatherApp.png";
 import vegetables from "../assets/portfolio/vegetables.png";
 import todolist from "../assets/todolist.jpeg";
+import sociopedia from "../assets/portfolio/SocioPedia.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: SchoolMaster,
+      link: "https://github.com/doublea85/MERN_SCHOOLMASTER",
+      demo: "#"
+    },
+    {
+      id: 2,
       src: weatherApp,
       link: "https://github.com/doublea85/WeatherApp",
       demo: "https://weatherapp-swart-sigma.vercel.app/"
     },
     {
-      id: 2,
+      id: 3,
       src: vegetables,
       link: "https://github.com/doublea85/Vegetables",
       demo:"#"
     },
     {
-      id: 3,
+      id: 4,
       src: todolist,
       link: "https://github.com/doublea85/todoListReactNative",
       demo: "#"
     },
+    {
+      id: 5,
+      src: sociopedia,
+      link: "https://github.com/doublea85/MERN-social-networ",
+      demo: "#"
+    }
   ];
 
   return (

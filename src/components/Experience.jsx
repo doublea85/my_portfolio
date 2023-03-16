@@ -4,13 +4,14 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import bootstrap from "../assets/bootstrap.png";
+import node from "../assets/node.png";
 import mysql from "../assets/mysql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import php from "../assets/php.png";
 import python from "../assets/python.png";
 import symfony from "../assets/symfony.png";
+import mongodb from "../assets/mongodb.png";
 
 
 const Experience = () => {
@@ -41,8 +42,8 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: bootstrap,
-      title: "Bootstrap",
+      src: node,
+      title: "NodeJS",
       style: "shadow-indigo-800",
     },
     {
@@ -81,6 +82,12 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 12,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-gray-400",
+    }
     
 
   ];
@@ -88,7 +95,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full"
+      className="bg-gradient-to-b from-gray-800 to-black w-full pt-60"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -97,7 +104,7 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8  px-12 sm:px-0 sm:py-10">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8  px-8 sm:px-0 sm:py-10">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
